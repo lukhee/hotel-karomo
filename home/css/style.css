@@ -1,0 +1,351 @@
+body{
+    background: rgb(211, 206, 206);
+    background-size: contain;
+}
+#section{
+    /* martino-pietropoli-Klm6WOXqCME-unsplash 1 */
+
+position: static;
+width: 250px;
+height: 520px;
+left: 100px;
+right: 600px;
+top: 1000px;
+background-image: url(../assets/images/martino-pietropoli-Klm6WOXqCME-unsplash\ 2.png);
+background-position: center;
+}
+@media (max-device-width:546px){
+    #section{
+        /* martino-pietropoli-Klm6WOXqCME-unsplash 1 */
+    
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    left: 1px;
+    right: 16px;
+    top: 10px;
+    background-image: url(../assets/images/martino-pietropoli-Klm6WOXqCME-unsplash\ 2.png);
+    background-position: center;
+    }
+}
+
+.firstbox{
+    /* Rectangle 12 */
+
+position: absolute;
+width: 255px;
+height: 525px;
+left: 150px;
+top: 20.4px;
+border: 3px solid #1C323A;
+box-sizing: border-box;
+}
+  @media (max-device-width:546px){
+    .firstbox{
+    
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 20px;
+    top: 20.4px;
+    border: 3px solid #1C323A;
+    box-sizing: border-box;
+    }
+ } 
+/*mobile responsive done*/
+
+
+/* Luxury writing */
+#landmark{
+    /* Rectangle 10 */
+position: static;
+width: 350px;
+height: 600px;
+left: 1px;
+top: 50px;
+padding: 10px;
+background: #FFFFFF;
+box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+}
+ @media (max-device-width:546px){
+    #landmark{
+        
+    position: absolute;
+    width: 90px;
+    height: 250px;
+    left: 0px;
+    top: 5px;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.h5{
+    /* Welcome to Karamo Hotel */
+
+/* position: absolute; */
+width: 362.7px;
+height: 150.67px;
+right: 646.57px;
+top: 1425.17px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 169px;
+text-align: justify;
+color: rgb(240, 186, 9);
+}
+@media (max-device-width:546px){
+    .h5{
+       
+    width: 100px;
+    height: 120px;
+    right: 646.57px;
+    top: 1425.17px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 13px;
+    text-align: justify;
+    color: rgb(240, 186, 9);
+    }
+    
+}
+
+   
+
+.h3{
+    /* A Landmark of Luxury */
+
+/* position: absolute; */
+width: 250.24px;
+height: 100.67px;
+right: 0px;
+top: 689.9px;
+
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 35px;
+color: #000000;
+}
+@media (max-device-width:546px){
+    .h3{
+    
+    position: absolute;
+    width: 78px;
+    height: 56px;
+    right: 0px;
+    top: 89.9px;
+    
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 10px;
+    color: #000000;
+    }
+}   
+    
+    
+
+.text{
+    /* position: absolute; */
+width: 300.34px;
+height: 250px;
+right: 552.93px;
+top: 1894.5px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+@media (max-device-width:546px){
+    .text{
+    width: 80px;
+    height: 80px;
+    right: 552.93px;
+    top: 184.5px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5px;
+    line-height: 11px;
+    color: #000000;
+    }
+}
+
+    
+#button{
+    /* Frame 1 */
+
+/* Auto Layout */
+/* display: flex; */
+flex-direction: row;
+padding: 20px 10px;
+
+/* position: absolute; */
+width: 148px;
+height: 66.24px;
+right: 849.55px;
+/* top: 117.59px; */
+background-position: center;
+background: #B18B11;
+}
+/*end of text*/
+
+@media (max-device-width:546px){
+    #button{
+        
+    flex-direction: row;
+    padding: 15px 8px;
+    
+    width: 2px;
+    height: 6.24px;
+    right: 60px;
+    background-position:auto;
+    background: #B18B11;
+    }
+}    
+
+
+.secondbox{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 355px;
+height: 605px;
+left: 600px;
+top: 200px;
+border: 3px solid #1C323A; 
+box-sizing: border-box;
+z-index: +1;
+}
+@media (max-device-width:546px){
+    .secondbox{
+    
+    position: absolute;
+    width: 100px;
+    height: 260px;
+    left: 160px;
+    top: 200px;
+    border: 3px solid #1C323A; 
+    box-sizing: border-box;
+    z-index: +1;
+    }
+}
+
+
+    
+
+#sidny{
+    /* sidny-see-P3Lht_zN3AQ-unsplash 1 */
+
+position: static;
+width: 600px;
+height: 500px;
+left: 875px;
+top: 8px;
+background: url(../assets/images/Group\ 12.png);
+background-position: center;
+}
+@media (max-device-width:546px){
+    #sidny{
+    
+    position: static;
+    width: 90px;
+    height: 250px;
+    left: 65px;
+    top: 8px;
+    background: url(../assets/images/Group\ 12.png);
+    background-position: center;
+    }
+} 
+
+    
+.thirdbox{
+    /* Rectangle 11 */
+
+position: absolute;
+width: 603px;
+height: 505px;
+left: 850px;
+top: 8px;
+border: 3px solid #1C323A;
+box-sizing: border-box;
+z-index: -1;
+}
+@media (max-device-width:546px){
+    .thirdbox{
+    
+    position: absolute;
+    width: 100px;
+    height: 250px;
+    left: 220px;
+    top: 8px;
+    border: 3px solid #1C323A;
+    box-sizing: border-box;
+    z-index: -1;
+    }
+}
+
+
+.lastbox{
+    /* Rectangle 30 */
+
+position: absolute;
+width: 355px;
+height: 255px;
+right: 200px;
+top: 700px;
+border: 3px solid #1C323A;
+box-sizing: border-box;
+z-index: +1;
+}
+@media (max-device-width:546px){
+    .lastbox{
+    
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    right: 20px;
+    top: 400px;
+    border: 3px solid #1C323A;
+    box-sizing: border-box;
+    z-index: +1;
+    }
+}
+
+#hotel{
+/* taylor-vick-VhbvP3hQwu8-unsplash 1 */
+
+position: static;
+width: 350px;
+height: 250px;
+right: 350px;
+top: 20px;
+background: url(../assets/images/Group\ 11.png);
+background-position: center;
+}
+@media (max-device-width:546px){
+    #hotel{
+        
+        position: static;
+        width: 80px;
+        height: 80px;
+        right: 3px;
+        top: 20px;
+        background: url(../assets/images/Group\ 11.png);
+        background-position: center;
+        }  
+    }

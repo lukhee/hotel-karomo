@@ -2,82 +2,63 @@
 <html>
 <head>
     <title>Rooms</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts-googleapis.com/css?family=Poppins&display=swap"rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./rooms.css" />
     <link href="https://fonts-googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-    
 <body>
-  <!-- beginning of header -->
-  <nav class="nav-img">
-    <div class="navBg">
-      <input type="checkbox"  id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label for="" class="logo"><p>Karamo Hotel</p></label>
-        <ul class="listCont">
-          <li><a href="../home/index.html">Home</a></li>
-          <li><a href="#" class="active">Rooms</a></li>
-          <li><a href="#">gallery</a></li>
-          <li><a  href="../facilities/index.html">Facilities</a></li>
-          <li><a href="../contactUs/index.html">contact</a></li>
-        </ul>
-      <p class="fac">ROOMS</p>
-    </div>
-  </nav>
-  <!-- ending of header -->
+  <!-- top view -->
+  <div id="rooom-top-view">
+    <h1>Room</h1>
+  </div>
 
-  <!-- beginning of body -->
-  <div style="margin: auto;text-align: -webkit-center;">
-    <div class="container" active>
-      <div class="img1">
-        <h2 class="h2-1">Karamo Suite Superior</h2>
-        <img src="Images/dc412e96668419%201.png" class="img1" >
+  <!-- Rooms Price section  -->
+  <div id="rooms-container">
+    <div class="room-view">
+      <div class="room-image room-one-image">
+        <h3>Karamo Suite Superior</h3>
       </div>
-  		
-  		<div class="box">
-              
-  			<p class="p-des">Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
-  			<a href="" class = "p-book">Book Now</a>
-  			<p class="p-money">₦100,000/night</p>
-  			<p></p>
-  		</div>
+      <div class="room-description">
+        <p>Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
+        <div class="room-action">
+          <a href="#"> Book Now </a>
+          <h2> <span>₦</span>100,000/night </h2>
+        </div>
+      </div>
     </div>
-      
-    <div class="container2">
-      <div class="img2">
-        <h2 class="h2-2">Karamo Premium Room</h2>
-        <img src="Images/premium.png"c >
+
+    <div class="room-view">
+      <div class="room-image room-two-image">
+        <h3>Karamo Premium Room</h3>
       </div>
-  	
-    	<div class="box2">
-        <p class="p-des2">Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
-        <a href="" id="booking" class="p-book2">Book Now</a>
-        <p class="p-money2">₦70,000/night</p>
-        <p></p>
-    	</div>
+      <div class="room-description">
+        <p>Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
+        <div class="room-action">
+          <a href="#"> Book Now </a>
+          <h2> <span>₦</span>70,000/night </h2>
+        </div>
+      </div>
     </div>
-      
-    <div class="container3">
-      <div class="img">
-        <h2 class="h2-3">Karamo Single Room</h2>
-        <img src="Images/single.png"c >
+
+    <div class="room-view">
+      <div class="room-image room-three-image">
+        <h3>Karamo Single Room</h3>>
       </div>
-  	
-  	<div class="box3">
-      <p class="p-des3">Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
-  		<a href="" id="booking" class="p-book3">Book Now</a>
-  		<p class="p-money3">₦100,000/night</p>
-  		<p></p>
-  	</div>
+      <div class="room-description">
+        <p>Standard with a kingsize bed and a mini parlour. Very comfortable and spacious room with a modern design. This room comes with a special package of free spa treatment evry weekend.</p>
+        <div class="room-action">
+          <a href="#"> Book Now </a>
+          <h2> <span>₦</span>100,000/night </h2>
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <!-- beginning of footer -->
   <div class="footer">
     <h3 class="footer-logo">
@@ -92,7 +73,6 @@
           Lagos,<br />
           Nigeria.
         </p>
-
         <Telephone>+234809489736</Telephone><br />
         <email>karamohetel@gmail.com</email>
       </div>
@@ -113,48 +93,30 @@
 
     <script>
       const pbook = document.querySelector(".p-book");
-    
+
     console.log(pbook);
-    
-    
+
     pbook.addEventListener('click', function(e){
         e.preventDefault();
-    
+
     });
-    
+
     const pbook2 = document.querySelector(".p-book2");
-    
+
     console.log(pbook2);
-    
-    
+
     pbook2.addEventListener('click', function(e){
         e.preventDefault();
     });
-    
+
     const pbook3 = document.querySelector(".p-book3");
-    
+
     console.log(pbook3);
-    
-    
+
     pbook3.addEventListener('click', function(e){
         e.preventDefault();
-       });
-        
-    
+      });
+
     </script>
     
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
